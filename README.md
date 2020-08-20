@@ -3,7 +3,7 @@
 
 # Training and Testing data
 ## 1. Download dataset 
-a). Download the dataset formhttps://pan.baidu.com/s/1OU0B0tQ6tsbI3oC2J6omDg password：dpkq, and the file is named as 'train.rar. and 'test.rar'.
+a). Download the dataset form https://pan.baidu.com/s/1OU0B0tQ6tsbI3oC2J6omDg password：dpkq, and the files are named as 'train.rar. and 'test.rar'.
 
 
 
