@@ -1,17 +1,26 @@
 # LFNet: Lightweight fire smoke detection for uncertain surveillance environment
 
+## 1. Training and Testing data
 
-# Training and Testing data
-## 1. Download dataset 
 a). Download the dataset form https://pan.baidu.com/s/1OU0B0tQ6tsbI3oC2J6omDg password：dpkq, and the files are named as 'train.rar. and 'test.rar'.
 
 
 
-```bash
+![1597958184163](C:\Users\PGods\AppData\Roaming\Typora\typora-user-images\1597958184163.png)
 
-```
+Figure 1: Representative images of fire, smoke and normal from the proposed datasets with their descriptions.
 
-# Performance on the testing data
+
+
+## 2. The structure of LFNet
+
+![1597958232362](C:\Users\PGods\AppData\Roaming\Typora\typora-user-images\1597958232362.png)
+
+Figure 2: The architecture of LFNet. LFNet conceptually consists of three sequential modules (skeleton feature module, main feature extraction module and predicting module), which is constructed by common convolution layers, bottleneck building blocks, parametric rectified linear unit, group normalization.
+
+
+
+## 3. Performance on testing data
 |               |  map  | size (Mb) |
 | ------------- |:-------------:| -------------:|
 | LFNet   | 0.619  |      22.5 |
@@ -22,9 +31,6 @@ a). Download the dataset form https://pan.baidu.com/s/1OU0B0tQ6tsbI3oC2J6omDg pa
 | faster rcnn | 0.296 | 108 |
 
 
-# 
-
-
-# Contact
-1. If you ask for related code or have any problems of this project, you can eamil to chuanshengw516@gmail.com
+## 4. Contact
+1. If you ask for related code or have any problems of this project, you can email to chuanshengw516@gmail.com or jinxing.hu@siat.ac.cn
 
